@@ -1,0 +1,6 @@
+[submodule "opt/ROPgadget"]
+	path = opt/ROPgadget
+	url = https://github.com/JonathanSalwan/ROPgadget.git
+[submodule "opt/pwntools"]
+	path = opt/pwntools
+	url = https://github.com/Gallopsled/pwntools.git
