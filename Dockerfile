@@ -1,4 +1,4 @@
-FROM avatao/ubuntu:14.04
+FROM avatao/ubuntu:16.04
 
 # Install common packages
 RUN apt-get -qy update \
