@@ -13,7 +13,8 @@ RUN apt-get -qy update \
 COPY . /
 
 # Install 3rd-party software
-RUN pip install capstone==3.0.4 \
+RUN pip install setuptools==11.3 \
+    && pip install capstone==3.0.4 \
     \
     && cd /opt/ROPgadget \
     && python setup.py install \
