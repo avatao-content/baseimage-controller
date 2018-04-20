@@ -1,4 +1,4 @@
-FROM avatao/ubuntu:16.04
+FROM avatao/debian:buster
 
 # Install common packages
 RUN apt-get -qy update \
