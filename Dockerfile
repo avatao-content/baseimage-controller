@@ -5,8 +5,10 @@ RUN apt-get -qy update \
     && apt-get -qy install \
         gdb \
         python-flask \
+        python-tornado \
         python-yaml \
         python3-flask \
+        python3-tornado \
         python3-yaml \
     && rm -rf /var/lib/apt/lists/*
 
