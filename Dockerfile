@@ -6,10 +6,12 @@ RUN apt-get -qy update \
         gdb \
         python-flask \
         python-tornado \
+        python-requests \
         python-yaml \
         python-zmq \
         python3-flask \
         python3-tornado \
+        python3-requests \
         python3-yaml \
         python3-zmq \
     && rm -rf /var/lib/apt/lists/*
