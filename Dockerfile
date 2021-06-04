@@ -4,11 +4,6 @@ FROM avatao/debian:bullseye
 RUN apt-get -qy update \
     && apt-get -qy install \
         gdb \
-        python-flask \
-        python-tornado \
-        python-requests \
-        python-yaml \
-        python-zmq \
         python3-flask \
         python3-tornado \
         python3-requests \
