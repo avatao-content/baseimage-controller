@@ -1,4 +1,4 @@
-FROM avatao/debian:buster
+FROM avatao/debian:bullseye
 
 # Install common packages
 RUN apt-get -qy update \
